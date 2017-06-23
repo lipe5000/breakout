@@ -28,11 +28,12 @@ extern SDL_Window* gWindow;
 extern NPC ball;
 extern NPC barra;
 extern NPC bloco;
-  
+
 //The surface contained by the window
 extern SDL_Surface* gScreenSurface;
 
 //Current displayed PNG image
+extern SDL_Surface* gPNGFundo;
 extern SDL_Surface* gJPGSurface;
 extern SDL_Surface* gPNGBarra;
 extern SDL_Surface* gPNGBloco;
@@ -40,5 +41,6 @@ extern SDL_Surface* gPNGBloco;
 extern Mix_Chunk* sound1;
 extern Mix_Chunk* sound2;
 extern Mix_Chunk* sound3;
+extern Mix_Music* Trilha_sonora;
 
 #endif
