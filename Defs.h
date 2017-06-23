@@ -5,7 +5,7 @@
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_mixer.h>
 
-typedef struct _NPC 
+typedef struct _NPC
 {
     int posX;
     int posY;

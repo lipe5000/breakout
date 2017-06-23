@@ -30,11 +30,12 @@ SDL_Window* gWindow = NULL;
 NPC ball;
 NPC barra;
 NPC bloco;
-  
+
 //The surface contained by the window
 SDL_Surface* gScreenSurface = NULL;
 
 //Current displayed PNG image
+SDL_Surface* gPNGFundo = NULL;
 SDL_Surface* gJPGSurface = NULL;
 SDL_Surface* gPNGBarra = NULL;
 SDL_Surface* gPNGBloco = NULL;
@@ -42,3 +43,4 @@ SDL_Surface* gPNGBloco = NULL;
 Mix_Chunk* sound1;
 Mix_Chunk* sound2;
 Mix_Chunk* sound3;
+Mix_Music* Trilha_sonora;
